@@ -1,70 +1,11 @@
-# Getting Started with Create React App
+# Utilisation des hooks React : Le composant utilise les hooks de React, notamment "useState", pour gérer efficacement l'état local du composant. Cela garantit une gestion propre et efficace des données et permet des mises à jour en temps réel de l'interface utilisateur en fonction des interactions de l'utilisateur.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Intégration de l'API Pixabay : Le code interagit avec l'API Pixabay pour récupérer des images en fonction de la requête de recherche de l'utilisateur. L'utilisation d'une clé d'API sécurisée permet un accès aux données de l'API en toute sécurité.
 
-## Available Scripts
+# Gestion asynchrone : Le code utilise des fonctions asynchrones et "await/async" pour gérer les appels d'API de manière asynchrone. Cela garantit que les opérations réseau ne bloquent pas le rendu de l'interface utilisateur.
 
-In the project directory, you can run:
+# Affichage dynamique des images : Les images récupérées depuis l'API Pixabay sont dynamiquement affichées dans la galerie d'images. Chaque image est accompagnée d'une balise "img" avec une clé unique, ce qui améliore les performances lors des mises à jour.
 
-### `npm start`
+# Interface utilisateur réactive : L'interface utilisateur est réactive et permet à l'utilisateur de saisir une requête de recherche dans un champ de saisie et de cliquer sur un bouton pour lancer la recherche. Les résultats s'affichent instantanément dans la galerie, offrant ainsi une expérience utilisateur fluide.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Gestion des erreurs : Le code inclut une gestion appropriée des erreurs lors de l'appel à l'API. En cas d'erreur, un message d'erreur est affiché pour informer l'utilisateur et éviter tout dysfonctionnement de l'application.

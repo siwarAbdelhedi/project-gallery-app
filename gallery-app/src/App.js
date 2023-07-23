@@ -39,7 +39,7 @@ function App() {
           placeholder="search ..."
           value={searchQuery}
           onChange={handleSearchInput}
-        />
+        /> <br></br>
         <button onClick={searchImages}>Rechercher</button>
       </div>
       <div className="gallery">

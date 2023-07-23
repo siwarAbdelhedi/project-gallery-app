@@ -1,3 +1,5 @@
+# Ce code est un composant React fonctionnel qui constitue une petite application de galerie d'images intégrant l'API Pixabay.
+
 # Utilisation des hooks React : Le composant utilise les hooks de React, notamment "useState", pour gérer efficacement l'état local du composant. Cela garantit une gestion propre et efficace des données et permet des mises à jour en temps réel de l'interface utilisateur en fonction des interactions de l'utilisateur.
 
 # Intégration de l'API Pixabay : Le code interagit avec l'API Pixabay pour récupérer des images en fonction de la requête de recherche de l'utilisateur. L'utilisation d'une clé d'API sécurisée permet un accès aux données de l'API en toute sécurité.
